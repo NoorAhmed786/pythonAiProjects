@@ -18,7 +18,7 @@ def unit_converts(value,unit_from,unit_to): # Function to convert units
     key=f"{unit_from}_{unit_to}" # Key to access the conversion factor
 
     if key in conversions: # Check if the key exists in the dictionary
-        conversion=conversions[key]
+        conversion=conversions[key] # Get the conversion factor
         return value*conversion # Return the converted value
     else:
         return "Conversion Not Supported" # Return this message if the conversion is not supported
@@ -38,7 +38,7 @@ if st.button("Convert"): # Button to trigger the conversion
     st.write(f"{value} {unit_from} is equal to {result} {unit_to}") # Display the result
 
 
-st.markdown(
+st.markdown( # Add some style to the app
     """
     <style>
         .stApp {
