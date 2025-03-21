@@ -14,3 +14,7 @@ Run:
 .venv/Scripts/Activate
 
 f = is use for taking dynamically value
+
+To run this app :
+
+streamlit run unit-converter.py
