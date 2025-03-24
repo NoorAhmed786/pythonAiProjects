@@ -18,3 +18,13 @@ f = is use for taking dynamically value
 To run this app :
 
 "streamlit run unit-converter.py"
+
+================= fast api ===============
+install fast api
+uv add fastapi[standard] its is use for latestmodule/dependencies
+
+run this api:
+fastapi dev main.py
+
+swager:
+http://127.0.0.1:8000/docs
